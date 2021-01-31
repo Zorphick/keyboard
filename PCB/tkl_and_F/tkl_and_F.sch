@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U?
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 60163F7A
 P 3600 5300
-F 0 "U?" H 3750 3450 50  0000 C CNN
+F 0 "U1" H 3750 3450 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 3750 3350 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3600 5300 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3600 5300 50  0001 C CNN
@@ -51,12 +51,12 @@ Wire Wire Line
 Wire Wire Line
 	3250 7100 3250 7250
 $Comp
-L device:R_Small R?
+L device:R_Small R6
 U 1 1 6016CA00
 P 4750 5900
-F 0 "R?" V 4554 5900 50  0000 C CNN
+F 0 "R6" V 4554 5900 50  0000 C CNN
 F 1 "10k" V 4645 5900 50  0000 C CNN
-F 2 "" H 4750 5900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4750 5900 50  0001 C CNN
 F 3 "~" H 4750 5900 50  0001 C CNN
 	1    4750 5900
 	0    1    1    0   
@@ -77,23 +77,23 @@ Wire Wire Line
 Wire Wire Line
 	4850 5900 5150 5900
 $Comp
-L device:R_Small R?
+L device:R_Small R4
 U 1 1 6016D8AC
 P 2450 4800
-F 0 "R?" V 2254 4800 50  0000 C CNN
+F 0 "R4" V 2254 4800 50  0000 C CNN
 F 1 "R_Small" V 2345 4800 50  0000 C CNN
-F 2 "" H 2450 4800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2450 4800 50  0001 C CNN
 F 3 "~" H 2450 4800 50  0001 C CNN
 	1    2450 4800
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R?
+L device:R_Small R5
 U 1 1 6016DBEB
 P 2100 4900
-F 0 "R?" V 2250 4900 50  0000 C CNN
+F 0 "R5" V 2250 4900 50  0000 C CNN
 F 1 "R_Small" V 2200 4900 50  0000 C CNN
-F 2 "" H 2100 4900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2100 4900 50  0001 C CNN
 F 3 "~" H 2100 4900 50  0001 C CNN
 	1    2100 4900
 	0    1    1    0   
@@ -107,12 +107,12 @@ Wire Wire Line
 Wire Wire Line
 	1750 4800 2350 4800
 $Comp
-L device:C_Small C?
+L device:C_Small C3
 U 1 1 6016F54C
 P 2500 5300
-F 0 "C?" H 2592 5346 50  0000 L CNN
+F 0 "C3" H 2592 5346 50  0000 L CNN
 F 1 "1uF" H 2592 5255 50  0000 L CNN
-F 2 "" H 2500 5300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2500 5300 50  0001 C CNN
 F 3 "~" H 2500 5300 50  0001 C CNN
 	1    2500 5300
 	1    0    0    -1  
@@ -135,45 +135,45 @@ $EndComp
 Wire Wire Line
 	2500 5650 2500 5400
 $Comp
-L device:C_Small C?
+L device:C_Small C4
 U 1 1 60172033
 P 1750 6400
-F 0 "C?" H 1842 6446 50  0000 L CNN
+F 0 "C4" H 1842 6446 50  0000 L CNN
 F 1 "0.1uF" H 1842 6355 50  0000 L CNN
-F 2 "" H 1750 6400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 1750 6400 50  0001 C CNN
 F 3 "~" H 1750 6400 50  0001 C CNN
 	1    1750 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L device:C_Small C5
 U 1 1 60172E0F
 P 2100 6400
-F 0 "C?" H 2192 6446 50  0000 L CNN
+F 0 "C5" H 2192 6446 50  0000 L CNN
 F 1 "0.1uF" H 2192 6355 50  0000 L CNN
-F 2 "" H 2100 6400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2100 6400 50  0001 C CNN
 F 3 "~" H 2100 6400 50  0001 C CNN
 	1    2100 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L device:C_Small C6
 U 1 1 6017313E
 P 2450 6400
-F 0 "C?" H 2542 6446 50  0000 L CNN
+F 0 "C6" H 2542 6446 50  0000 L CNN
 F 1 "0.1uF" H 2542 6355 50  0000 L CNN
-F 2 "" H 2450 6400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2450 6400 50  0001 C CNN
 F 3 "~" H 2450 6400 50  0001 C CNN
 	1    2450 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L device:C_Small C7
 U 1 1 60173373
 P 2800 6400
-F 0 "C?" H 2892 6446 50  0000 L CNN
+F 0 "C7" H 2892 6446 50  0000 L CNN
 F 1 "10uF" H 2892 6355 50  0000 L CNN
-F 2 "" H 2800 6400 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2800 6400 50  0001 C CNN
 F 3 "~" H 2800 6400 50  0001 C CNN
 	1    2800 6400
 	1    0    0    -1  
@@ -256,12 +256,12 @@ F 3 "" H 2350 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal_GND24_Small Y?
+L device:Crystal_GND24_Small Y1
 U 1 1 6017C43C
 P 2400 4100
-F 0 "Y?" V 2354 4244 50  0000 L CNN
+F 0 "Y1" V 2354 4244 50  0000 L CNN
 F 1 "16Mhz" V 2445 4244 50  0000 L CNN
-F 2 "" H 2400 4100 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 2400 4100 50  0001 C CNN
 F 3 "~" H 2400 4100 50  0001 C CNN
 	1    2400 4100
 	0    1    1    0   
@@ -278,23 +278,23 @@ F 3 "" H 1800 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C?
+L device:C_Small C2
 U 1 1 6017FACA
 P 1950 4300
-F 0 "C?" V 1721 4300 50  0000 C CNN
+F 0 "C2" V 1721 4300 50  0000 C CNN
 F 1 "22pF" V 1812 4300 50  0000 C CNN
-F 2 "" H 1950 4300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 1950 4300 50  0001 C CNN
 F 3 "~" H 1950 4300 50  0001 C CNN
 	1    1950 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C?
+L device:C_Small C1
 U 1 1 60180A83
 P 1950 3850
-F 0 "C?" V 1721 3850 50  0000 C CNN
+F 0 "C1" V 1721 3850 50  0000 C CNN
 F 1 "22pF" V 1812 3850 50  0000 C CNN
-F 2 "" H 1950 3850 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 1950 3850 50  0001 C CNN
 F 3 "~" H 1950 3850 50  0001 C CNN
 	1    1950 3850
 	0    1    1    0   
@@ -339,12 +339,12 @@ Wire Wire Line
 	2850 4200 3000 4200
 Connection ~ 2400 4300
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 6018A9D6
 P 2500 3650
-F 0 "SW?" H 2500 3935 50  0000 C CNN
+F 0 "SW1" H 2500 3935 50  0000 C CNN
 F 1 "SW_Push" H 2500 3844 50  0000 C CNN
-F 2 "" H 2500 3850 50  0001 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 2500 3850 50  0001 C CNN
 F 3 "~" H 2500 3850 50  0001 C CNN
 	1    2500 3650
 	1    0    0    -1  
@@ -378,12 +378,12 @@ F 3 "" H 2950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R?
+L device:R_Small R3
 U 1 1 6018D8DA
 P 2950 3450
-F 0 "R?" H 3009 3496 50  0000 L CNN
+F 0 "R3" H 3009 3496 50  0000 L CNN
 F 1 "R_Small" H 3009 3405 50  0000 L CNN
-F 2 "" H 2950 3450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2950 3450 50  0001 C CNN
 F 3 "~" H 2950 3450 50  0001 C CNN
 	1    2950 3450
 	1    0    0    -1  
@@ -439,12 +439,12 @@ Connection ~ 1250 2650
 Wire Wire Line
 	1250 2650 1250 2600
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 601B9FC4
 P 1250 1700
-F 0 "J?" H 1357 2567 50  0000 C CNN
+F 0 "J1" H 1357 2567 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1357 2476 50  0000 C CNN
-F 2 "" H 1400 1700 50  0001 C CNN
+F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1400 1700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1400 1700 50  0001 C CNN
 	1    1250 1700
 	1    0    0    -1  
@@ -458,23 +458,23 @@ Connection ~ 1850 1800
 NoConn ~ 1850 2200
 NoConn ~ 1850 2300
 $Comp
-L device:R_Small R?
+L device:R_Small R2
 U 1 1 601C0F74
 P 2400 1400
-F 0 "R?" V 2500 1400 50  0000 C CNN
+F 0 "R2" V 2500 1400 50  0000 C CNN
 F 1 "5.1k" V 2550 1400 50  0000 C CNN
-F 2 "" H 2400 1400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2400 1400 50  0001 C CNN
 F 3 "~" H 2400 1400 50  0001 C CNN
 	1    2400 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R?
+L device:R_Small R1
 U 1 1 601C222D
 P 2400 1300
-F 0 "R?" V 2300 1200 50  0000 C CNN
+F 0 "R1" V 2300 1200 50  0000 C CNN
 F 1 "5.1k" V 2300 1400 50  0000 C CNN
-F 2 "" H 2400 1300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2400 1300 50  0001 C CNN
 F 3 "~" H 2400 1300 50  0001 C CNN
 	1    2400 1300
 	0    1    1    0   
@@ -503,21 +503,8 @@ Wire Wire Line
 	1850 1300 2300 1300
 Wire Wire Line
 	1850 1400 2300 1400
-$Comp
-L device:Polyfuse F?
-U 1 1 601D1243
-P 2850 1100
-F 0 "F?" V 2625 1100 50  0000 C CNN
-F 1 "500mA" V 2716 1100 50  0000 C CNN
-F 2 "" H 2900 900 50  0001 L CNN
-F 3 "~" H 2850 1100 50  0001 C CNN
-	1    2850 1100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3200 950  3200 1100
-Wire Wire Line
-	3200 1100 3000 1100
 Wire Wire Line
 	1850 1100 2150 1100
 $Comp
@@ -532,8 +519,6 @@ F 3 "" H 2150 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2150 1100
-Wire Wire Line
-	2150 1100 2700 1100
 $Sheet
 S 5350 1400 2000 1250
 U 601DA0FE
@@ -590,4 +575,19 @@ Text GLabel 4200 6600 2    50   Input ~ 0
 F6
 Text GLabel 4200 6700 2    50   Input ~ 0
 F7
+$Comp
+L device:Polyfuse_Small F1
+U 1 1 611B3EDB
+P 2850 1100
+F 0 "F1" V 2645 1100 50  0000 C CNN
+F 1 "Polyfuse_Small" V 2736 1100 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 2900 900 50  0001 L CNN
+F 3 "~" H 2850 1100 50  0001 C CNN
+	1    2850 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 1100 2750 1100
+Wire Wire Line
+	2950 1100 3200 1100
 $EndSCHEMATC
